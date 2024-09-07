@@ -12,7 +12,7 @@ const SkeletonOne = () => {
         Multipage Website with Custom Playlist
       </p>
       <div className="flex gap-4 justify-start items-center">
-        <p className="font-bold text-2xl text-text-purple">Already Deploy</p>
+        <p className="font-bold text-lg text-text-purple">Already Deploy</p>
         <span className="font-bold text-2xl text-text-purple">
           <IoCheckmarkDoneSharp />
         </span>
@@ -33,7 +33,7 @@ const SkeletonTwo = () => {
         Personal Task Monitoring System
       </p>
       <div className="flex gap-4 justify-start items-center">
-        <p className="font-bold text-2xl text-text-purple">Pending Deploy</p>
+        <p className="font-bold text-lg text-text-purple">Pending Deploy</p>
         <span className="font-bold text-2xl text-text-purple">
           <MdOutlinePendingActions />
         </span>
@@ -54,7 +54,7 @@ const SkeletonThree = () => {
         Budget Tracker Application
       </p>
       <div className="flex gap-4 justify-start items-center">
-        <p className="font-bold text-2xl text-text-purple">Pending Deploy</p>
+        <p className="font-bold text-lg text-text-purple">Pending Deploy</p>
         <span className="font-bold text-2xl text-text-purple">
           <MdOutlinePendingActions />
         </span>
@@ -75,7 +75,7 @@ const SkeletonFour = () => {
         Sales Dashboard
       </p>
       <div className="flex gap-4 justify-start items-center">
-        <p className="font-bold text-2xl text-text-purple">Pending Deploy</p>
+        <p className="font-bold text-lg text-text-purple">Pending Deploy</p>
         <span className="font-bold text-2xl text-text-purple">
           <MdOutlinePendingActions />
         </span>
