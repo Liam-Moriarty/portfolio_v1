@@ -16,7 +16,7 @@ const RecentProjects = () => {
         </p>
       </div>
 
-      <div className="h-screen w-full">
+      <div id="recentProjects" className="h-screen w-full">
         <LayoutGrid cards={cards} />
       </div>
     </div>
