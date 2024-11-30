@@ -5,6 +5,24 @@
     <link rel="icon" type="image/svg+xml" href="/anti-social.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ordiales Portfolio</title>
+    <script type="module">
+      import Chatbox from "https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js";
+
+      async function initChatbox() {
+        const widget = await Chatbox.initBubble({
+          agentId: "cm43zl8up0eg42056djghwguq",
+          initialMessages: [
+            "Hello how are you doing today?",
+            "How can I help you?",
+          ],
+        });
+
+        // open the chat bubble
+        widget.open();
+      }
+
+      initChatbox();
+    </script>
   </head>
   <body>
     <div id="root"></div>
